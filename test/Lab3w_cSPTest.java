@@ -10,7 +10,7 @@ class Lab3w_cSPTest {
     void setUp() {
         // 初始化图结构
         ReadFile File = new ReadFile();
-        File.transformFile("graph_wt.txt");
+        File.transformFile("test_text/graph_wt.txt");
         graph = new Graph("result/data.txt");
         graph.buildGraph();
 
